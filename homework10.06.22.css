@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#services {
+  background-color: #17c2a4;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.head h2 {
+  font: bold 40px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+hr {
+  width: 87px;
+  height: 4px;
+  background-color: #14a58c;
+  border: none;
+  margin: auto;
+}
+
+.head p {
+  margin-top: 24px;
+  margin-bottom: 79px;
+  font: 400 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.one {
+  display: inline-block;
+  margin-left: 43px;
+}
+img {
+  display: inline-block;
+  margin-left: 40px;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+
+.one h4 {
+  margin-top: 58px;
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.one p {
+  margin: auto;
+  width: 204px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+/* FORM */
+#touch {
+  background-color: #3c5499;
+}
+#touch form{
+    margin: auto 120px;
+}
+#touch input {
+  background-color: #273a71;
+  border: none;
+  outline: none;
+  width: 414px;
+  height: 56px;
+  border-radius: 4px;
+  background-color: #273a71;
+  
+  margin-bottom: 27px;
+}
+#touch input::placeholder {
+  font-size: 18px;
+line-height: 18px;
+color: #ffffff;
+font-weight: 400;
+font-family: 'Times New Roman', Times, serif;
+padding-left: 25px;
+}
+
+#touch .name{
+margin-right: 28px;
+}
+#touch .message{
+   width: 860px; 
+   height: 200px;
+   background-color: #273a71;
+   border: none;
+  outline: none;
+}
+#touch .message::placeholder{
+   font-size: 18px;
+line-height: 18px;
+color: #ffffff;
+font-weight: 400;
+font-family: 'Times New Roman', Times, serif;
+padding-left: 25px;
+padding-top: 24px;
+
+}
+
+button{
+    /* display: inline-block; */
+    width: 293px;
+height: 70px;
+border-radius: 4px;
+background-color: #30bae7;
+border: none;
+  margin: auto ;
+}
